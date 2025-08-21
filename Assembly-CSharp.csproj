@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\PhotoTransitions.cs" />
     <Compile Include="Assets\Scripts\BookController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Scenes\TestScript.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingIssue.cs" />
