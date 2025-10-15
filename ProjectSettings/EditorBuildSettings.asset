@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Scenes 09-23/Main_VR_10_14_Recording.unity
+    guid: 94155809e4ad7c844a3e0ef958aee923
+  - enabled: 0
+    path: Assets/Scenes/Scenes 09-23/Main_VR_10_09.unity
+    guid: e5049f21d706bb94eb703352374afb07
+  - enabled: 0
     path: Assets/Scenes/Main_VR.unity
     guid: 0f6be6269edceaa4c91048b0b847d7a0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoScene2.unity
     guid: cf2e761ad37fc454bb2d779a36203216
   - enabled: 0

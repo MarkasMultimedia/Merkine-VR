@@ -489,6 +489,7 @@ MonoBehaviour:
   - {fileID: 1174108469658901857}
   - {fileID: -2121176638237603499}
   m_renderMode: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -497,7 +498,10 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
+  m_multiviewRenderRegionsOptimizationMode: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
+  m_useOpenXRPredictedTime: 0
 --- !u!114 &-2492066190724710935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +985,6 @@ MonoBehaviour:
   m_Name: SpaceWarpFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Application SpaceWarp
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.spacewarp
@@ -989,6 +992,7 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+  m_UseRightHandedNDC: 0
 --- !u!114 &3321795285636452146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,6 +1202,8 @@ MonoBehaviour:
   lateLatchingMode: 0
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
+  multiviewRenderRegionsOptimizationMode: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &5407213312149913836
 MonoBehaviour:
@@ -1317,6 +1323,7 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
+  - {fileID: 3299833782504728023}
   - {fileID: 4293393083451873296}
   - {fileID: -8765361875105111419}
   - {fileID: 6704329888765133050}
@@ -1337,6 +1344,7 @@ MonoBehaviour:
   - {fileID: 3664376535462875166}
   - {fileID: -2492066190724710935}
   m_renderMode: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -1345,7 +1353,10 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
+  m_multiviewRenderRegionsOptimizationMode: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
+  m_useOpenXRPredictedTime: 0
 --- !u!114 &6896375096950393560
 MonoBehaviour:
   m_ObjectHideFlags: 0
