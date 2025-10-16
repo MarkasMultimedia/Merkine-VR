@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class BookController : MonoBehaviour
 {
+    public SceneController sceneController;
     public GameObject bookClosedGroup;
     public GameObject bookOpenGroup;
     public Transform telePoints;
@@ -38,6 +39,7 @@ public class BookController : MonoBehaviour
     {
         Debug.Log("onclick");
         playerGO.transform.position = telePoints.GetChild(index).position;
+        sceneController.StartScene();
     }
 
     public void OnPersonClick(DescriptionScriptable desc)
