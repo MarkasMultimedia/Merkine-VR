@@ -27,6 +27,7 @@ public class BookController : MonoBehaviour
     {
         bookClosedGroup.SetActive(false);
         bookOpenGroup.SetActive(true);
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
 
     public void OnDeselect()
