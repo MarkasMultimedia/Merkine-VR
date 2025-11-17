@@ -28,12 +28,20 @@ public class BookController : MonoBehaviour
         bookClosedGroup.SetActive(false);
         bookOpenGroup.SetActive(true);
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        Invoke("SetButtonsActive", 1.0f);
+    }
+
+    private void SetButtonsActive()
+    {
+        if (bookOpenGroup.activeInHierarchy)
+            uiButtons.SetActive(true);
     }
 
     public void OnDeselect()
     {
         bookClosedGroup.SetActive(true);
         bookOpenGroup.SetActive(false);
+        uiButtons.SetActive(false);
     }
 
     public void OnConfirmClick(int index)

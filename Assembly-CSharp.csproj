@@ -1169,6 +1169,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
@@ -1197,10 +1201,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
       <Private>False</Private>
@@ -1217,12 +1217,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Hands">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1261,12 +1265,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1313,6 +1325,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1357,6 +1373,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1367,6 +1387,10 @@
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Hands.Editor">
