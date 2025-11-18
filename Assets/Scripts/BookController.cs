@@ -13,6 +13,8 @@ public class BookController : MonoBehaviour
     public GameObject uiDescriptions;
     public Image uiDescImage;
     public TMP_Text uiDescTextbox;
+    public GameObject[] canvasGroups;
+    private int canvasGroupIndex = 0;
     void Start()
     {
         Debug.Log("Book controller active");
@@ -75,5 +77,28 @@ public class BookController : MonoBehaviour
     {
         uiButtons.SetActive(true);
         uiDescriptions.SetActive(false);
+    }
+
+    public void OnNextButtonClick()
+    {
+        canvasGroupIndex += 1;
+        if (canvasGroupIndex > 2) canvasGroupIndex = 2;
+        SetupCanvasGroup();
+    }
+
+    public void OnPrevButtonClick()
+    {
+        canvasGroupIndex -= 1;
+        if (canvasGroupIndex < 0) canvasGroupIndex = 0;
+        SetupCanvasGroup();
+    }
+
+    private void SetupCanvasGroup()
+    {
+        foreach (GameObject canvasGroup in canvasGroups)
+        {
+            canvasGroup.SetActive(false);
+        }
+        canvasGroups[canvasGroupIndex].SetActive(true);
     }
 }
